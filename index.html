@@ -9,10 +9,38 @@
                 width: 1160px;
                 margin: auto;
             }
+            
+            .clear{
+                clear: both;
+            }
 
             #header{
                 text-align: center;
             }
+
+            #content{
+                float:left;
+                width: 754px;
+            }
+
+            #content_profile_main_table{
+                text-align: center;            
+            }
+
+            #content_profile_main_table td{
+                border: 1px solid silver;
+            }
+
+            #contne_profile_main_movie{
+                text-align: center;
+            }
+
+            #aside{
+                float:right;
+                width: 406px;    
+            }
+            
+
 
             #footer{
                 text-align: center;
@@ -28,11 +56,54 @@
             </div>
             
             <div id="content">
-                <div></div>
-                <div></div>
+                <div id="content_profile_main">
+                    <table id="content_profile_main_table">
+                        <thead>
+                            <tr>
+                                <td colspan="2">기본 정보</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>이름</td>
+                                <td>박종하</td>
+                            </tr>
+                            <tr>
+                                <td>학교</td>
+                                <td>단국대학교</td>
+                            </tr>
+                            <tr>
+                                <td>학과</td>
+                                <td>사이버보안학과</td>
+                            </tr>
+                            <tr>
+                                <td>학번</td>
+                                <td>32201831</td>
+                            </tr>
+                            <tr>
+                                <td>학년</td>
+                                <td>3학년</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                    <div id="contne_profile_main_movie">
+                        <h3>학과 소개 영상</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2Hh4hsq9l0?si=MUNUkgDY5sX2-OYC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div>
+
+                </div>
                 <div></div>
             </div>
+            
+            <div id="aside">
+                <h3>aside</h3>
+            </div>
 
+            <div class="clear"></div>
             <div id="footer">
                 <p>Copyright ⓒ 2024 박종하</p>
             </div>
