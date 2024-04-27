@@ -29,10 +29,33 @@
                 border-radius: 30px;
             }
 
+            #content_profile_main_menu{
+                width: 700px;
+                margin: 10px auto;
+                padding: auto;
+                border: 1px solid silver;
+                border-radius: 30px;
+                
+            }
+            #content_profile_main_menu ul{
+                list-style-type: none;
+            }
+            #content_profile_main_menu li{
+                display: inline;
+                text-align: center;
+            }
+            #content_profile_main_menu a{
+                padding: 5px;
+                margin: 1px;
+                border: 1px solid silver;
+                border-radius: 30px;
+                text-decoration: none;
+            }
+
             #content_profile_main_table{
                 text-align: center; 
                 border-collapse: collapse;     
-                margin: 20px;      
+                margin: 20px;
             }
 
             #content_profile_main_table td{
@@ -60,7 +83,6 @@
                 border: 1px solid silver;
                 border-radius: 30px; 
             }
-
             #content_profile_sub1_img{
                 float: right;
                 width: 100px;
@@ -72,6 +94,11 @@
                 padding: 20px;
                 border: 1px solid silver;
                 border-radius: 30px; 
+            }
+            #content_profile_sub2_img{
+                float: right;
+                width: 100px;
+
             }
 
             #aside{
@@ -100,7 +127,18 @@
             
             <div id="content">
                 <div id="content_profile_main">
+                    <div id="content_profile_main_menu">
+                        <ul>
+                            <li><a href="#content_profile_main">main</a></li>
+                            <li><a href="#content_profile_sub1">Strength/Weakness</a></li>
+                            <li><a href="#content_profile_sub2">hobby</a></li>
+                            <li><a href="#content_profile_sub3">Likes/Dislikes</a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+
                     <img  id="content_profile_main_img" src="https://upload.wikimedia.org/wikipedia/ko/4/4a/%EC%8B%A0%EC%A7%B1%EA%B5%AC.png">
+                    
                     <table id="content_profile_main_table">
                         <thead>
                             <tr>
@@ -127,6 +165,10 @@
                             <tr>
                                 <td>학년</td>
                                 <td>3학년</td>
+                            </tr>
+                            <tr>
+                                <td>MBTI</td>
+                                <td>INFJ</td>
                             </tr>
                         </tbody>
                         <tfoot>
@@ -173,6 +215,7 @@
                 </div>
 
                 <div id="content_profile_sub2">
+                    <img id="content_profile_sub2_img" src="./images/hobby.png">
                     <h3>취미 활동</h3>
                     <ul>
                         <li>헬스</li>
@@ -183,6 +226,9 @@
                     </ul>
                 </div>
 
+                <div id="content_profile_sub3">
+
+                </div>
             </div>
             
             <div id="aside">
